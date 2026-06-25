@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q_001",
+    "chapterId": 1,
+    "chapterName": "Road Signs",
+    "question": "What does a circular red sign with a white horizontal bar mean?",
+    "optionA": "No Entry",
+    "optionB": "Stop",
+    "optionC": "Give Way",
+    "optionD": "No Parking",
+    "correctOptionIndex": 0,
+    "explanation": "A circular red sign with a white horizontal bar is the 'No Entry' sign. It means vehicles are prohibited from entering the road or lane from that direction.",
+    "difficulty": "easy",
+    "tags": ["road-signs", "prohibitory-signs", "no-entry"],
+    "estimatedTimeSeconds": 20
+  },
+  {
+    "id": "q_002",
+    "chapterId": 1,
+    "chapterName": "Road Signs",
+    "question": "A triangular sign with a red border indicates:",
+    "optionA": "A compulsory instruction",
+    "optionB": "A warning of a potential hazard ahead",
+    "optionC": "An information sign",
+    "optionD": "A direction to follow",
+    "correctOptionIndex": 1,
+    "explanation": "Triangular signs with red borders are warning signs. They alert drivers to potential hazards or dangers ahead, such as bends, junctions, or pedestrian crossings.",
+    "difficulty": "easy",
+    "tags": ["road-signs", "warning-signs", "shapes"],
+    "estimatedTimeSeconds": 25
+  }
+]
