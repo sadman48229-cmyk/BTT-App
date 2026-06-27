@@ -62,7 +62,7 @@ export function ContactPage() {
                     className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
                     style={{ backgroundColor: `${method.color}15`, border: `1px solid ${method.color}25` }}
                   >
-                    <method.icon className="w-4.5 h-4.5" style={{ color: method.color }} />
+                    <method.icon className="w-5 h-5" style={{ color: method.color }} />
                   </div>
                   <div>
                     <div className="text-xs text-muted-foreground">{method.label}</div>
@@ -156,7 +156,7 @@ export function ContactPage() {
                   />
                 </div>
                 <Button type="submit" size="lg" className="w-full">
-                  <Send className="w-4.5 h-4.5" />
+                  <Send className="w-5 h-5" />
                   Send Message
                 </Button>
                 <p className="text-xs text-muted-foreground text-center">

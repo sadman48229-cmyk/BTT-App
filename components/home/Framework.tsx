@@ -197,7 +197,7 @@ export function Framework() {
                   }}
                 >
                   <stage.icon
-                    className="w-4.5 h-4.5"
+                    className="w-5 h-5"
                     style={{ color: activeStage === i ? stage.color : undefined }}
                   />
                 </div>

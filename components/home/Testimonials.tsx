@@ -197,13 +197,13 @@ export function Testimonials() {
                 onClick={prev}
                 className="w-10 h-10 rounded-xl glass border border-white/10 flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-white/20 transition-all"
               >
-                <ChevronLeft className="w-4.5 h-4.5" />
+                <ChevronLeft className="w-5 h-5" />
               </button>
               <button
                 onClick={next}
                 className="w-10 h-10 rounded-xl glass border border-white/10 flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-white/20 transition-all"
               >
-                <ChevronRight className="w-4.5 h-4.5" />
+                <ChevronRight className="w-5 h-5" />
               </button>
             </div>
           </div>

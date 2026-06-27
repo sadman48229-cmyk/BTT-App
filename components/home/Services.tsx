@@ -1,11 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
   Globe, Palette, Search, Megaphone, Bot, BarChart3,
-  Layers, Zap, Users, ArrowRight, Target, Cpu
+  Layers, Zap, Users, ArrowRight, Cpu
 } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 
@@ -101,8 +101,6 @@ const services = [
 ];
 
 export function Services() {
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
   return (
     <section className="section-padding" id="services">
       <div className="container mx-auto container-padding">
@@ -150,8 +148,6 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.07 }}
-              onMouseEnter={() => setHoveredIndex(i)}
-              onMouseLeave={() => setHoveredIndex(null)}
             >
               <Link
                 href={service.href}
@@ -164,7 +160,7 @@ export function Services() {
                   <div
                     className={`w-11 h-11 rounded-xl bg-background/50 flex items-center justify-center mt-3 mb-4 ${service.iconColor} group-hover:scale-110 transition-transform duration-300`}
                   >
-                    <service.icon className="w-5.5 h-5.5" strokeWidth={1.8} />
+                    <service.icon className="w-6 h-6" strokeWidth={1.8} />
                   </div>
                   <h3 className="font-display font-bold text-lg text-foreground mb-2 leading-tight">
                     {service.title}

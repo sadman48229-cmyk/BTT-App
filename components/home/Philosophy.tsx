@@ -125,7 +125,7 @@ export function Philosophy() {
                 <div
                   className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 border ${pillar.bg}`}
                 >
-                  <pillar.icon className={`w-5.5 h-5.5 ${pillar.color}`} strokeWidth={1.8} />
+                  <pillar.icon className={`w-6 h-6 ${pillar.color}`} strokeWidth={1.8} />
                 </div>
                 <h3 className="font-display font-bold text-base text-foreground mb-2">
                   {pillar.title}

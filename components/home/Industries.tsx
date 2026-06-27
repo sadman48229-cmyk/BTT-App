@@ -147,7 +147,7 @@ export function Industries() {
                   }}
                 >
                   <industry.icon
-                    className="w-5.5 h-5.5 transition-colors duration-300"
+                    className="w-6 h-6 transition-colors duration-300"
                     strokeWidth={1.8}
                     style={{ color: hovered === i ? industry.color : undefined }}
                   />

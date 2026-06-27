@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/Badge";
-import { Clock, ArrowRight, BookOpen } from "lucide-react";
+import { Clock, BookOpen } from "lucide-react";
 import { CTA } from "@/components/home/CTA";
 
 const categories = ["All", "SEO", "AI & Automation", "Design", "Marketing", "Strategy", "Growth"];

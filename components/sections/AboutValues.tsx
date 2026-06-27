@@ -42,7 +42,7 @@ export function AboutValues() {
                 className="w-12 h-12 rounded-xl flex items-center justify-center mb-5"
                 style={{ backgroundColor: `${v.color}15`, border: `1px solid ${v.color}25` }}
               >
-                <v.icon className="w-5.5 h-5.5" style={{ color: v.color }} strokeWidth={1.8} />
+                <v.icon className="w-6 h-6" style={{ color: v.color }} strokeWidth={1.8} />
               </div>
               <h3 className="font-display font-bold text-lg text-foreground mb-2">{v.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{v.description}</p>

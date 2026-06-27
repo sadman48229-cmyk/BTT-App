@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Globe, Palette, Search, Megaphone, Bot, BarChart3, Layers, Users, Target, Zap } from "lucide-react";
+import { Globe, Palette, Search, Megaphone, Bot, Target } from "lucide-react";
 
 const serviceGroups = [
   {

@@ -71,7 +71,7 @@ export function BookCallPage() {
               <ul className="flex flex-col gap-3">
                 {benefits.map((b) => (
                   <li key={b} className="flex items-center gap-3 text-sm text-muted-foreground">
-                    <CheckCircle className="w-4.5 h-4.5 text-emerald-400 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0" />
                     {b}
                   </li>
                 ))}

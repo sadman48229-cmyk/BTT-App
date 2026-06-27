@@ -38,7 +38,7 @@ export function Header() {
   const pathname = usePathname();
 
   useEffect(() => {
-    setMounted(true);
+    setMounted(true); // eslint-disable-line react-hooks/set-state-in-effect
   }, []);
 
   useEffect(() => {
@@ -48,8 +48,8 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    setIsMobileOpen(false);
-    setActiveDropdown(null);
+    setIsMobileOpen(false); // eslint-disable-line react-hooks/set-state-in-effect
+    setActiveDropdown(null); // eslint-disable-line react-hooks/set-state-in-effect
   }, [pathname]);
 
   return (
@@ -142,9 +142,9 @@ export function Header() {
               aria-label="Toggle theme"
             >
               {theme === "dark" ? (
-                <Sun className="w-4.5 h-4.5" />
+                <Sun className="w-5 h-5" />
               ) : (
-                <Moon className="w-4.5 h-4.5" />
+                <Moon className="w-5 h-5" />
               )}
             </button>
           )}

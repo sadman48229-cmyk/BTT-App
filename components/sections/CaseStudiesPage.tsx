@@ -90,7 +90,7 @@ export function CaseStudiesPage() {
         </div>
 
         <div className="flex flex-col gap-20">
-          {cases.map((study, i) => (
+          {cases.map((study) => (
             <motion.article
               key={study.id}
               id={study.id}
